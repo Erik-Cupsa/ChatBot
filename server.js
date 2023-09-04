@@ -19,7 +19,7 @@ app.use(cors());
 // Create an array to store all conversation history
 const chatHistory = [];
 
-app.post('/chat', async (req, res) => {
+app.post('/bot', async (req, res) => {
     const userInput = req.body.userInput;
   
     try {
