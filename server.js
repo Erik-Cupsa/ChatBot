@@ -10,7 +10,7 @@ import bodyParser from 'body-parser';
 
 
 const app = express();
-const port = 3001; 
+const port = 80; 
 
 // Middleware for parsing JSON requests
 app.use(bodyParser.json());
